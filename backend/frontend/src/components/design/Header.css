@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px gray solid;
+  background: url("../../images/background.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.right-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.right-container div {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgb(190, 190, 190);
+  text-align: center;
+  cursor: pointer;
+}
+.right-container .sign-up {
+  color: white;
+  background-color: #1cd3b4;
+}
+.right-container .sign-up:hover {
+  background-color: #2d9e66;
+}
+.right-container .log-in {
+  color: white;
+  background-color: #2d9e66;
+}
+.right-container .log-in:hover {
+  background-color: #1cd3b4;
+}
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: black;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+.logo span {
+  color: #ff5733;
+}
+.link-login,
+.link-signup {
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.link-login i,
+.link-signup i {
+  margin-right: 5px;
+}
+.justify-content {
+  display: block;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .link-login,
+  .link-signup {
+    margin-top: 10px;
+  }
+}

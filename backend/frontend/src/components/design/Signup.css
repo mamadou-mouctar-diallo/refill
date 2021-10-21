@@ -1,0 +1,5 @@
+.align-items div {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}

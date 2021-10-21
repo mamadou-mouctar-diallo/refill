@@ -1,0 +1,13 @@
+module.exports = {
+  HTTP_400: 400,
+  HTTP_404: 404,
+  HTTP_403: 403,
+  HTTP_500: 500,
+  HTTP_200: 200,
+  HTTP_406: 406,
+  HTTP_406: 401,
+  HTTP_301: 301,
+  HTTP_301: 302,
+  HTTP_503: 503,
+  HTTP_504: 504
+}
