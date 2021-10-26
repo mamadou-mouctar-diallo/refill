@@ -10,34 +10,28 @@ class GoFast extends Component {
     return (
       <div>
         <div className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid mx-5">
-            <Link
-              className="btn btn-lg"
-              style={{
-                marginLeft: "-40px",
-              }}
-              to="/settingsextra"
-            >
-              <i
-                class="bi bi-arrow-left-short"
+          <div className="container-fluid">
+            <div className=" d-flex justify-content-start">
+              <div
+                className="d-flex justify-content-start"
                 style={{
-                  fontSize: "2.5rem",
-                  color: "red",
-                  fontWeight: "4rem",
+                  marginRight: "10px",
+                  paddingBottom: "2px",
                 }}
-              ></i>
-            </Link>
-            <h1>Go Fast</h1>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto">
-                <Link
-                  className="navbar-brand color-logo text-light logo"
-                  title="Refill"
-                  to="/settingsextra"
-                >
-                  Re <span>fill</span>
+              >
+                <Link to="/settings">
+                  <i
+                    className="bi bi-arrow-left-short"
+                    style={{
+                      fontSize: "2rem",
+                      color: "red",
+                    }}
+                  ></i>
                 </Link>
-              </ul>
+              </div>
+              <div className="d-flex mt-2">
+                <h1 className="text-dark">Go Fast</h1>
+              </div>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ class Wallet extends Component {
             <div
               className="d-flex"
               style={{
-                marginRight: "130px",
+                marginRight: "110px",
               }}
             >
               <h1 className="text-light">Refill</h1>

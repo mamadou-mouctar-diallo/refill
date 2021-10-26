@@ -7,33 +7,28 @@ class SettingsExtra extends Component {
     return (
       <div>
         <div className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid mx-5">
-            <Link
-              className="nav-link btn btn-lg"
-              style={{
-                marginLeft: "-40px",
-              }}
-              to="/save"
-            >
-              <i
-                class="bi bi-arrow-left-short"
+          <div className="container-fluid">
+            <div className=" d-flex justify-content-start">
+              <div
+                className="d-flex justify-content-start"
                 style={{
-                  fontSize: "2.5rem",
-                  color: "red",
-                  fontWeight: "4rem",
+                  marginRight: "110px",
+                  paddingBottom: "2px",
                 }}
-              ></i>
-            </Link>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto">
-                <Link
-                  className="navbar-brand color-logo text-light logo"
-                  title="Refill"
-                  to="/settingsextra"
-                >
-                  Re <span>fill</span>
+              >
+                <Link to="/settings">
+                  <i
+                    className="bi bi-arrow-left-short"
+                    style={{
+                      fontSize: "2rem",
+                      color: "red",
+                    }}
+                  ></i>
                 </Link>
-              </ul>
+              </div>
+              <div className="d-flex mt-2">
+                <h1 className="text-danger">Refill</h1>
+              </div>
             </div>
           </div>
         </div>
@@ -41,9 +36,17 @@ class SettingsExtra extends Component {
           <div
             className="row mb-4 "
             style={{
-              marginTop: "200px",
+              marginTop: "80px",
             }}
           >
+            <div className="col-md-8 m-auto">
+              <div className="container">
+                <div className="form-group mt-3 mb-4">
+                  <h1>Operators</h1>
+                  <p>Manage your list of operators.</p>
+                </div>
+              </div>
+            </div>
             <div className="col-md-8 m-auto">
               <div className="container">
                 <div className="input-group  mb-4 ">
@@ -53,7 +56,6 @@ class SettingsExtra extends Component {
                     style={{
                       borderRadius: "5px",
                     }}
-                    placeholder="Search code"
                   />
                   <div className="input-group-append">
                     <Link
@@ -63,6 +65,7 @@ class SettingsExtra extends Component {
                         marginLeft: "5px",
                         backgroundColor: "#EEDCA2",
                       }}
+                      to="/wallet"
                     >
                       <i
                         class="bi bi-pencil-square"
@@ -71,17 +74,12 @@ class SettingsExtra extends Component {
                           color: "black",
                           fontWeight: "4rem",
                         }}
-                        to="/settingsextra"
                       ></i>
                     </Link>
                   </div>
                 </div>
                 <div className="form-group mt-2 mb-4">
-                  <input
-                    type="text"
-                    className="form-control form-control-lg"
-                    placeholder="Value"
-                  />
+                  <input type="text" className="form-control form-control-lg" />
                 </div>
                 <div className="input-group">
                   <div className="input-group-append">
@@ -107,12 +105,15 @@ class SettingsExtra extends Component {
                   </div>
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control outline-danger"
                     style={{
                       borderRadius: "5px",
                     }}
-                    placeholder="Search code"
                   />
+                </div>
+                <div className="form-group mt-3 mb-4">
+                  <h1>Clear data</h1>
+                  <p>Clean up cache in history, wallet and operators.</p>
                 </div>
               </div>
             </div>
