@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { withRouter } from "react-router-dom";
 import "../design/Header.css";
 
-class Save extends Component {
-  constructor(props) {
-    super(props);
-  }
+class Camera extends Component {
   render() {
     return (
       <div>
@@ -31,40 +27,47 @@ class Save extends Component {
                 </Link>
               </div>
               <div className="d-flex mt-2">
-                <h1 className="text-dark">Save</h1>
+                <h1 className="text-dark">Camera</h1>
               </div>
             </div>
           </div>
         </div>
         <div className="container mt-4">
-          <div className="row mb-4">
+          <div
+            className="row mb-4 "
+            style={{
+              marginTop: "200px",
+            }}
+          >
             <div className="col-md-8 m-auto">
-              <div className="container">
-                <div className="form-group mt-2 mb-4">
+              <div className="">
+                <div className="input-group">
                   <input
                     type="text"
-                    className="form-control form-control-lg"
-                    placeholder="Value"
+                    className="form-control"
+                    style={{
+                      borderRadius: "5px",
+                    }}
+                    placeholder="Scratch code"
                   />
-                </div>
-                <div className="container-fluid m-auto p-2">
-                  <div
-                    className="d-flex justify-content-center p-2 text-danger border border-2 border-danger"
-                    style={{
-                      borderRadius: "10px",
-                    }}
-                  >
-                    {"Ooredoo"}
-                  </div>
-                </div>
-                <div className="container-fluid m-auto p-2">
-                  <div
-                    className="d-flex justify-content-center p-2 border border-2 border-warning text-warning"
-                    style={{
-                      borderRadius: "10px",
-                    }}
-                  >
-                    {"Orange"}
+                  <div className="input-group-append">
+                    <Link
+                      className="input-group-text "
+                      style={{
+                        borderRadius: "5px",
+                        marginLeft: "5px",
+                      }}
+                      to="/save"
+                    >
+                      <i
+                        className="bi bi-arrow-right-short"
+                        style={{
+                          fontSize: "1.5rem",
+                          color: "red",
+                          fontWeight: "4rem",
+                        }}
+                      ></i>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -76,4 +79,4 @@ class Save extends Component {
   }
 }
 
-export default Save;
+export default Camera;

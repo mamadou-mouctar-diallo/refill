@@ -101,12 +101,14 @@ class Wallet extends Component {
                       height: "50px",
                     }}
                   >
-                    <i
-                      className="bi bi-lightning-charge-fill"
-                      style={{
-                        fontSize: "1.75rem",
-                      }}
-                    ></i>
+                    <Link to="/" className="text-danger">
+                      <i
+                        className="bi bi-lightning-charge-fill"
+                        style={{
+                          fontSize: "1.75rem",
+                        }}
+                      ></i>
+                    </Link>
                   </div>
                 </div>
               </div>

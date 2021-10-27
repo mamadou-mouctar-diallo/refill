@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
 import { Link } from "react-router-dom";
+
 class Settings extends Component {
   render() {
     return (
@@ -41,7 +41,7 @@ class Settings extends Component {
             <div className="col-md-8 m-auto">
               <div className="container">
                 <div className="form-group mt-3 mb-4">
-                  <h1>Operators</h1>
+                  <h1 className="display-4">Operators</h1>
                   <p>Manage your list of operators.</p>
                 </div>
               </div>
@@ -58,7 +58,7 @@ class Settings extends Component {
                           borderColor: "red",
                           marginRight: "20px",
                         }}
-                        to="/settingsextra"
+                        to="/createoperator"
                       >
                         <i
                           className="bi bi-pencil-fill"
@@ -134,7 +134,7 @@ class Settings extends Component {
                   </div>
                 </div>
                 <div className="form-group mt-3 mb-4">
-                  <h1>Clear data</h1>
+                  <h1 className="display-4">Clear data</h1>
                   <p>Clean up cache in history, wallet and operators.</p>
                 </div>
               </div>

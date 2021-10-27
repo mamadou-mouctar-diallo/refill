@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { withRouter } from "react-router-dom";
-import "../design/Header.css";
 
 class Save extends Component {
   constructor(props) {
@@ -176,7 +174,7 @@ class Save extends Component {
                     fontWeight: "bold",
                     fontSize: "1.5rem",
                   }}
-                  to="/save"
+                  to="/gofast"
                 >
                   Apply
                 </Link>

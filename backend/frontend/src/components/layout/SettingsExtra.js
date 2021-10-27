@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-
 import { Link } from "react-router-dom";
-import "../design/Header.css";
+
 class SettingsExtra extends Component {
   render() {
     return (
@@ -42,7 +41,7 @@ class SettingsExtra extends Component {
             <div className="col-md-8 m-auto">
               <div className="container">
                 <div className="form-group mt-3 mb-4">
-                  <h1>Operators</h1>
+                  <h1 className="display-4">Operators</h1>
                   <p>Manage your list of operators.</p>
                 </div>
               </div>
@@ -99,7 +98,7 @@ class SettingsExtra extends Component {
                           color: "red",
                           fontWeight: "4rem",
                         }}
-                        to="/settingsextra"
+                        to="/gofast"
                       ></i>
                     </Link>
                   </div>
@@ -112,7 +111,7 @@ class SettingsExtra extends Component {
                   />
                 </div>
                 <div className="form-group mt-3 mb-4">
-                  <h1>Clear data</h1>
+                  <h1 className="display-4">Clear data</h1>
                   <p>Clean up cache in history, wallet and operators.</p>
                 </div>
               </div>
