@@ -16,7 +16,7 @@ class SettingsExtra extends Component {
                   paddingBottom: "2px",
                 }}
               >
-                <Link to="/settings">
+                <Link to="/gofast">
                   <i
                     className="bi bi-arrow-left-short"
                     style={{
@@ -65,10 +65,10 @@ class SettingsExtra extends Component {
                         marginLeft: "5px",
                         backgroundColor: "#EEDCA2",
                       }}
-                      to="/wallet"
+                      to="/updateoperator"
                     >
                       <i
-                        class="bi bi-pencil-square"
+                        className="bi bi-pencil-square"
                         style={{
                           fontSize: "1.5rem",
                           color: "black",
@@ -90,10 +90,10 @@ class SettingsExtra extends Component {
                         marginRight: "5px",
                         backgroundColor: "#C53F1C",
                       }}
-                      to="/settingsextra"
+                      to="/settings"
                     >
                       <i
-                        class="bi bi-trash-fill"
+                        className="bi bi-trash-fill"
                         style={{
                           fontSize: "1.5rem",
                           color: "red",

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
-import "../design/Header.css";
-class SettingsExtra extends Component {
+class Settings extends Component {
   render() {
     return (
       <div>
@@ -59,14 +58,14 @@ class SettingsExtra extends Component {
                           borderColor: "red",
                           marginRight: "20px",
                         }}
+                        to="/settingsextra"
                       >
                         <i
-                          class="bi bi-pencil-fill"
+                          className="bi bi-pencil-fill"
                           style={{
                             color: "red",
                             fontWeight: "4rem",
                           }}
-                          to="/settingsextra"
                         ></i>
                       </Link>
                       <Link
@@ -75,9 +74,10 @@ class SettingsExtra extends Component {
                           backgroundColor: "white",
                           borderColor: "red",
                         }}
+                        to="/settingsextra"
                       >
                         <i
-                          class="bi bi-trash-fill"
+                          className="bi bi-trash-fill"
                           style={{
                             color: "red",
                             fontWeight: "4rem",
@@ -103,14 +103,14 @@ class SettingsExtra extends Component {
                           borderColor: "red",
                           marginRight: "20px",
                         }}
+                        to="/settingsextra"
                       >
                         <i
-                          class="bi bi-pencil-fill"
+                          className="bi bi-pencil-fill"
                           style={{
                             color: "red",
                             fontWeight: "4rem",
                           }}
-                          to="/settingsextra"
                         ></i>
                       </Link>
                       <Link
@@ -119,9 +119,10 @@ class SettingsExtra extends Component {
                           backgroundColor: "white",
                           borderColor: "red",
                         }}
+                        to="/settingsextra"
                       >
                         <i
-                          class="bi bi-trash-fill"
+                          className="bi bi-trash-fill"
                           style={{
                             color: "red",
                             fontWeight: "4rem",
@@ -145,4 +146,4 @@ class SettingsExtra extends Component {
   }
 }
 
-export default SettingsExtra;
+export default Settings;

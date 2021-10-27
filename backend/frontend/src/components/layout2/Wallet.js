@@ -42,6 +42,77 @@ class Wallet extends Component {
             </h1>
           </div>
         </div>
+        <div className="col-md-8 m-auto">
+          <div className="container mt">
+            <div className="d-flex flex-column m-auto ">
+              <div className="container-fluid m-auto p-2">
+                <div className="d-flex justify-content-start m-auto mt-4">
+                  <div
+                    className="d-flex justify-content-center border border-2 border-danger text-danger rounded-circle"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      marginRight: "10px",
+                    }}
+                  >
+                    <div className="d-flex flex-column"></div>
+                  </div>
+                  <div
+                    className="d-flex justify-content-center border border-2 border-danger text-danger rounded-circle"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                    }}
+                  >
+                    <div className="d-flex flex-column"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="container-fluid m-auto p-2">
+                <div className="d-flex justify-content-center text-danger border border-2 border-dark bg-dark"></div>
+              </div>
+              <div className="container-fluid m-auto p-2 m-auto">
+                <div className="d-flex justify-content-start text-dark">
+                  <h2>3 Cards</h2>
+                </div>
+              </div>
+              <div className="container-fluid m-auto p-2">
+                <div
+                  className="d-flex justify-content-center p-4 text-danger border border-2 border-danger"
+                  style={{
+                    borderRadius: "10px",
+                  }}
+                ></div>
+              </div>
+              <div className="container-fluid m-auto p-2">
+                <div
+                  className="d-flex justify-content-center p-4 border border-2 border-warning text-warning"
+                  style={{
+                    borderRadius: "10px",
+                  }}
+                ></div>
+              </div>
+              <div className="container-fluid m-auto p-2">
+                <div className="d-flex justify-content-center m-auto m-auto">
+                  <div
+                    className="d-flex justify-content-center border border-2 border-danger text-danger rounded-circle"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                    }}
+                  >
+                    <i
+                      className="bi bi-lightning-charge-fill"
+                      style={{
+                        fontSize: "1.75rem",
+                      }}
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -19,7 +19,7 @@ class GoFast extends Component {
                   paddingBottom: "2px",
                 }}
               >
-                <Link to="/settings">
+                <Link to="/wallet">
                   <i
                     className="bi bi-arrow-left-short"
                     style={{
@@ -30,7 +30,7 @@ class GoFast extends Component {
                 </Link>
               </div>
               <div className="d-flex mt-2">
-                <h1 className="text-dark">Go Fast</h1>
+                <h1 className="text-dark">Go fast</h1>
               </div>
             </div>
           </div>
@@ -40,34 +40,32 @@ class GoFast extends Component {
           <div
             className="row mb-4  "
             style={{
-              marginTop: "200px",
+              marginTop: "80px",
             }}
           >
             <div className="col-md-8 m-auto">
               <div className="container">
-                <div className="d-grid gap-2 mt-10 text-center ">
-                  <button
-                    type="button"
-                    className="btn btn-lg"
-                    style={{
-                      borderColor: "red",
-                      color: "red",
-                    }}
-                  >
-                    {"Ooredoo"}
-                  </button>
-                </div>
-                <div className="d-grid gap-2 mt-4 text-center">
-                  <button
-                    type="button"
-                    className="btn btn-lg"
-                    style={{
-                      borderColor: "orange",
-                      color: "orange",
-                    }}
-                  >
-                    {"Orange"}
-                  </button>
+                <div className="d-flex flex-column mb-2 ">
+                  <div className="container-fluid m-auto p-2">
+                    <div
+                      className="d-flex justify-content-center p-2 text-danger border border-2 border-danger"
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                    >
+                      {"Ooredoo"}
+                    </div>
+                  </div>
+                  <div className="container-fluid m-auto p-2">
+                    <div
+                      className="d-flex justify-content-center p-2 border border-2 border-warning text-warning"
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                    >
+                      {"Orange"}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

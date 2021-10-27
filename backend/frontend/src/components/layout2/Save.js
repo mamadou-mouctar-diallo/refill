@@ -37,7 +37,7 @@ class Save extends Component {
           </div>
         </div>
         <div className="container mt-4">
-          <div className="row mb-4  listOperator">
+          <div className="row mb-4">
             <div className="col-md-8 m-auto">
               <div className="container">
                 <div className="form-group mt-2 mb-4">
@@ -47,29 +47,25 @@ class Save extends Component {
                     placeholder="Value"
                   />
                 </div>
-                <div className="d-grid gap-2 mt-10 text-center mt-4 ">
-                  <button
-                    type="button"
-                    className="btn btn-lg mt-4"
+                <div className="container-fluid m-auto p-2">
+                  <div
+                    className="d-flex justify-content-center p-2 text-danger border border-2 border-danger"
                     style={{
-                      borderColor: "red",
-                      color: "red",
+                      borderRadius: "10px",
                     }}
                   >
                     {"Ooredoo"}
-                  </button>
+                  </div>
                 </div>
-                <div className="d-grid gap-2 mt-4 text-center">
-                  <button
-                    type="button"
-                    className="btn btn-lg"
+                <div className="container-fluid m-auto p-2">
+                  <div
+                    className="d-flex justify-content-center p-2 border border-2 border-warning text-warning"
                     style={{
-                      borderColor: "orange",
-                      color: "orange",
+                      borderRadius: "10px",
                     }}
                   >
                     {"Orange"}
-                  </button>
+                  </div>
                 </div>
               </div>
             </div>

@@ -57,10 +57,10 @@ class Camera extends Component {
                         borderRadius: "5px",
                         marginLeft: "5px",
                       }}
-                      to="/settingsextra"
+                      to="/gofast"
                     >
                       <i
-                        class="bi bi-arrow-right-short"
+                        className="bi bi-arrow-right-short"
                         style={{
                           fontSize: "1.5rem",
                           color: "red",

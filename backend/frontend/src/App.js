@@ -12,15 +12,17 @@ import SettingsExtra from "./components/layout2/SettingsExtra";
 import Settings from "./components/layout2/Settings";
 import UpdateOperator from "./components/layout2/UpdateOperator";
 import Camera from "./components/layout2/Camera";
+import Dashboard from "./components/layout2/Dashboard";
+
 if (localStorage.jwtToken) {
 }
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Route exact path="/" component={Wallet} />
+      <div className="app">
+        <Router>
+          <Route exact path="/" component={CreateOperator} />
           <Route exact path="/gofast" component={GoFast} />
           <Route exact path="/wallet" component={Wallet} />
           <Route exact path="/save" component={Save} />
@@ -28,9 +30,10 @@ class App extends Component {
           <Route exact path="/camera" component={Camera} />
           <Route exact path="/createoperator" component={CreateOperator} />
           <Route exact path="/settingsextra" component={SettingsExtra} />
+          <Route exact path="/updateoperator" component={UpdateOperator} />
           <Footer />
-        </div>
-      </Router>
+        </Router>
+      </div>
     );
   }
 }
