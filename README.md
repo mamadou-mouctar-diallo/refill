@@ -19,5 +19,5 @@ To run frontend
 cd frontend
 cmd: npm start but here the frontend app needs the backend to fetch the data so you can choose one of the commands above.
 
-I just start using redux for the data store, i used react-route-dom for the routing but i jugged redux more confortable, i implemented some redux actions and reducers for users and operators but i did not finish but i did something.
+I just start using redux for the data store, i used react-route-dom for the routing but i jugged that is redux more confortable, i implemented some redux actions and reducers for users and operators but i did not finish but i did something.
 By thank you, i hope be accepted.
